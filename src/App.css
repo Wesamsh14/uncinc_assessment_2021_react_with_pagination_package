@@ -1,0 +1,48 @@
+#root {
+  text-align: center;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url('./images/BGFour.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.App > h1 {
+  color: white;
+}
+.castCard {
+  transition: 500ms;
+  width: 15rem;
+  height: 300px;
+  -webkit-box-shadow: 5px -4px 9px 0px #bab6df;
+  box-shadow: 5px -4px 9px 0px #bab6df;
+  border-radius: 13px
+}
+.castCard:hover {
+  transform: scale(1.05);
+}
+.react-card-flip {
+  height: 100%;
+}
+.paginationButtons {
+  width: auto;
+  height: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.paginationButtons a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  background-color: white;
+}
+.paginationButtons a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}
